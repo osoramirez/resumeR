@@ -16,7 +16,7 @@ a table summary
 The table give a summary statistics
 }
 \examples{
-resumendf(conc~Treatment, data = CO2)
+resumendf(Petal.Width ~Species, data = iris)
 
 }
 \keyword{resumendf}

@@ -119,6 +119,17 @@ se(data)
 ```
 
 
+#summaries for data.frame
+For your data.frame data use this functions.
+
+```{r}
+data(iris)
+resumendf(Petal.Width ~Species, data = iris)
+```
+
+
+
+
 #Reference
 
 Read more: Harmonic Mean https://www.investopedia.com/terms/h/harmonicaverage.asp#ixzz5Ibmy4Rbq 

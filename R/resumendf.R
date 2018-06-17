@@ -8,7 +8,7 @@
 #'@export resumendf
 #'
 #'@examples
-#'resumendf(conc~Treatment, data = CO2)
+#'resumendf(Petal.Width ~Species, data = iris)
 #'
 
 resumendf<-function (formula, data)
@@ -46,11 +46,12 @@ resumendf<-function (formula, data)
     y.maxs[i] <- round(max(y[group == i]),3)
     y.sds[i] <- round(sd(y[group == i]),3)
     y.se[i] <-  round(sd(y[group == i])/sqrt(length(y[group == i])),3)
-    }
+  }
   out = as.data.frame(cbind(y.n, y.means, y.sds, y.medians,
                             y.mins, y.maxs, y.firstqs, y.thirdqs,y.se,y.NAs))
   colnames(out) = c("n", "Mean", "sd", "Median", "Min",
                     "Max", "1st Qu", "3st Qu ",  "se", "Missing")
+  boxplot(y ~ group , data=data, col="#EBEBEB")
   return(out)
 }
 #We use the base of function "decribe" from "onewaytests" package.

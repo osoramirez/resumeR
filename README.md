@@ -157,6 +157,23 @@ se(data)
 #> mean= 0.245±0.112 =standard error
 ```
 
+summaries for data.frame
+========================
+
+For your data.frame data use this functions.
+
+``` r
+data(iris)
+resumendf(Petal.Width ~Species, data = iris)
+```
+
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
+
+    #>             n  Mean    sd Median Min Max 1st Qu 3st Qu     se Missing
+    #> setosa     50 0.246 0.105    0.2 0.1 0.6    0.2     0.3 0.015       0
+    #> versicolor 50 1.326 0.198    1.3 1.0 1.8    1.2     1.5 0.028       0
+    #> virginica  50 2.026 0.275    2.0 1.4 2.5    1.8     2.3 0.039       0
+
 Reference
 =========
 

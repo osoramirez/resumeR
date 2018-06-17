@@ -123,6 +123,13 @@ Is as a measure of the precision of the sample mean, it is  considered as a meas
 se(data)
 ```
 
+#summaries for data.frame
+For your data.frame data use this functions.
+
+```{r}
+data(iris)
+resumendf(Petal.Width ~Species, data = iris)
+```
 
 #Reference
 
