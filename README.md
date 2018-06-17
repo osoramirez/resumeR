@@ -177,8 +177,8 @@ resumendf(Petal.Width ~Species, data = iris)
 Reference
 =========
 
-Read more: Harmonic Mean <https://www.investopedia.com/terms/h/harmonicaverage.asp#ixzz5Ibmy4Rbq>
+Coefficient Of Variation (CV) <https://www.investopedia.com/terms/c/coefficientofvariation.asp#ixzz5Ibl3v4Ly>
 
-Read more: Coefficient Of Variation (CV) <https://www.investopedia.com/terms/c/coefficientofvariation.asp#ixzz5Ibl3v4Ly>
+Read more: Harmonic Mean <https://www.investopedia.com/terms/h/harmonicaverage.asp#ixzz5Ibmy4Rbq>
 
 Read more: Standard error <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1255808/>
