@@ -7,6 +7,7 @@
 #'@return a summary
 #'@export resume
 #'@examples
+#'set.seet(12345)
 #'x<-rnorm(25,2,3)
 #'resume(x)
 #'
