@@ -1,6 +1,6 @@
 Package: resumeR
 Type: Package
-Date: r Sys.Date()
+Date: 2018-06-19
 Title: The most complete summary statistic ever!
 Version: 1.0
 Authors@R: person("Oscar Ramirez Alan", email = "osoramirez@gmail.com",
