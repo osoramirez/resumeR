@@ -1,11 +1,10 @@
 Package: resumeR
 Type: Package
 Date: 2018-06-19
-Title: The most complete summary statistic ever!
+Title: The Most Complete Summary Statistic Ever!
 Version: 1.0
 Authors@R: person("Oscar Ramirez Alan", email = "osoramirez@gmail.com",
   role = c("aut", "cre"))
-Author: Oscar Ramirez Alan [aut, cre],
 Maintainer: The package maintainer <osoramirez@gmail.com>
 Description: This package is very useful, to get a complety summary statistic
     We can get a plots, and see what it happen with your data. Only work for a vector data
@@ -15,7 +14,8 @@ LazyData: true
 URL: https://github.com/osoramirez/resumeR 
 BugReports: https://github.com/osoramirez/resumeR/issues
 RoxygenNote: 6.0.1
-Depends: R (>= 3.4.4), e1071, car
+Depends: R (>= 3.0)
+Imports: e1071, car
 Suggests:
     MASS,
     knitr,

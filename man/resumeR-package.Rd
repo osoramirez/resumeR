@@ -4,7 +4,7 @@
 \name{resumeR-package}
 \alias{resumeR}
 \alias{resumeR-package}
-\title{resumeR: The most complete summary statistic ever!}
+\title{resumeR: The Most Complete Summary Statistic Ever!}
 \description{
 This package is very useful, to get a complety summary statistic
 We can get a plots, and see what it happen with your data. Only work for a vector data

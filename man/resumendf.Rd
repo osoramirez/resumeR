@@ -7,7 +7,9 @@
 resumendf(formula, data)
 }
 \arguments{
-\item{x}{is a numeric value, could be a  a vector or data.frame}
+\item{formula}{is a numeric value, could be a  a vector or data.frame}
+
+\item{data}{is your group}
 }
 \value{
 a table summary

@@ -8,6 +8,10 @@ h_mean(x, na.rm = TRUE, zero = TRUE)
 }
 \arguments{
 \item{x}{is a numeric value, could be a  a vector or data.frame}
+
+\item{na.rm}{is a na.rm}
+
+\item{zero}{is any value of cero}
 }
 \value{
 a geometric mean

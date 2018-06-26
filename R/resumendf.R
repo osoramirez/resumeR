@@ -1,7 +1,8 @@
 #'@title A Summary Statitical for Data.frame
 #'
 #'@description The table give a summary statistics
-#'@param x is a numeric value, could be a  a vector or data.frame
+#'@param formula is a numeric value, could be a  a vector or data.frame
+#'@param data is your group
 #'@export resumendf
 #'@keywords resumendf
 #'@return a table summary

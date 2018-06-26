@@ -2,6 +2,8 @@
 #'
 #'@description get a Harmonic mean
 #'@param x is a numeric value, could be a  a vector or data.frame
+#'@param na.rm is a na.rm
+#'@param zero is any value of cero
 #'@export h_mean
 #'@keywords h_mean
 #'@return a geometric mean
