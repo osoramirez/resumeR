@@ -10,7 +10,7 @@ cv(x)
 \item{x}{is a numeric value, could be a  a vector or data.frame}
 }
 \value{
-cv
+A single number, a scalar
 }
 \description{
 Compute the coefficient of variation

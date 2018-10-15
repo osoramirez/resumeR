@@ -18,6 +18,5 @@ get a boxplot, showing the mean in plot
 \examples{
 x<-rnorm(25,2,3)
 plotbox(x)
-
 }
 \keyword{plotbox}

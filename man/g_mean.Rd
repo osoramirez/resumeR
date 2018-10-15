@@ -4,10 +4,15 @@
 \alias{g_mean}
 \title{Geometric mean}
 \usage{
-g_mean(x)
+g_mean(x, na.rm = TRUE, add_1 = FALSE)
 }
 \arguments{
-\item{x}{is a numeric value, could be a  a vector or data.frame}
+\item{x}{is a numeric value, could be a vector or data.frame}
+
+\item{na.rm}{remove missing values before computing}
+
+\item{add_1}{should 1 be added to \code{x} before taking the log?
+If so, the exponentiated mean will have 1 subtracted afterwards}
 }
 \value{
 a geometric mean

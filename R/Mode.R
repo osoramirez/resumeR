@@ -1,8 +1,8 @@
 #'@title Mode
 #'
 #'@description get a Mode
-#'@param x is a numeric value, could be a  a vector or data.frame
-#'@return Mode
+#'@param x is a numeric value, could be a vector or data.frame
+#'@return The mode of the data.
 #'@export Mode
 #'@keywords Mode
 #'@name Mode

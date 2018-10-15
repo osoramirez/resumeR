@@ -12,7 +12,6 @@
 #'
 #'
 plothist <- function(x) {
-  require(graphics)
   opar <- par(no.readonly = TRUE)
   on.exit(par(opar))
   par(mfrow=c(1,1))

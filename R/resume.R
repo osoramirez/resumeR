@@ -6,7 +6,9 @@
 #'@keywords resume
 #'@return a summary
 #'@export resume
-#'@examples
+#' @importFrom car qqPlot
+#' @importFrom stats shapiro.test
+#' @examples
 #'set.seed(12345)
 #'x<-rnorm(25,2,3)
 #'resume(x)
@@ -14,12 +16,15 @@
 
 resume<-function (x)
 {
-  require(e1071)
-  require(car)
+  dig = getOption("digits")
   options(digits=3)
   x <- x[is.finite(x)]
   def.par <- par(no.readonly = TRUE)
-  on.exit(par(def.par))
+  on.exit({
+    par(def.par)
+    options(digits = dig)
+    })
+
   par(mfrow=c(2,2))
   hist(x, main = NULL, col = "#EDEDED", xlab = "", prob = TRUE, cex=.9)
   abline(v = mean(x), lwd = 3, col="red")

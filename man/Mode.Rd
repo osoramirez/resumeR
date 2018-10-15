@@ -7,10 +7,10 @@
 Mode(x)
 }
 \arguments{
-\item{x}{is a numeric value, could be a  a vector or data.frame}
+\item{x}{is a numeric value, could be a vector or data.frame}
 }
 \value{
-Mode
+The mode of the data.
 }
 \description{
 get a Mode

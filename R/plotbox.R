@@ -10,10 +10,10 @@
 #'@examples
 #'x<-rnorm(25,2,3)
 #'plotbox(x)
+#' @import graphics
 #'
 
 plotbox <- function(x) {
-  require(graphics)
   opar <- par(no.readonly = TRUE)
   on.exit(par(opar))
   par(mfrow=c(1,1))

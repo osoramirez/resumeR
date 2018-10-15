@@ -4,7 +4,7 @@
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export cv
 #'@keywords cv
-#'@return cv
+#'@return A single number, a scalar
 #'@export cv
 #'
 #'@examples
@@ -15,9 +15,13 @@
 
 cv <- function(x)
 {
-  options(digits=3)
-  data <- na.omit(x)
-  sqrt(var(data,na.rm=TRUE))/mean(data,na.rm=TRUE)
+  dig = getOption("digits")
+  options(digits = 3)
+  on.exit({
+    options(digits = dig)
+  })
+  # don't need na.omit if na.rm = TRUE
+  sqrt(var(x,na.rm = TRUE))/mean(x,na.rm=TRUE)
   }
 
 
