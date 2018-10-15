@@ -6,6 +6,7 @@
 #'@keywords resume2data
 #'@return a table summary
 #'@export resume2data
+#' @importFrom e1071 kurtosis skewness
 #'
 #'@examples
 #'x<-rnorm(25,2,3)
@@ -13,7 +14,6 @@
 #'
 resume2data<-function (x)
 {
-  require(e1071)
   options(digits=3)
   opar <- par(no.readonly = TRUE)
   on.exit(par(opar))

@@ -5,17 +5,21 @@ Title: The Most Complete Summary Statistic Ever!
 Version: 1.0
 Authors@R: person("Oscar Ramirez Alan", email = "osoramirez@gmail.com",
   role = c("aut", "cre"))
-Maintainer: The package maintainer <osoramirez@gmail.com>
-Description: This package is very useful, to get a complety summary statistic
-    We can get a plots, and see what it happen with your data. Only work for a vector data
-License: License: GPL (>= 2)
+Description: Estimates complete summary statistics from 
+  vector data.  Includes statistics for measures of central 
+  tendency and spread.
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/osoramirez/resumeR 
 BugReports: https://github.com/osoramirez/resumeR/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 Depends: R (>= 3.0)
-Imports: e1071, car
+Imports: 
+  e1071, 
+  car,
+  graphics,
+  stats
 Suggests:
     MASS,
     knitr,

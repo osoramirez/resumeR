@@ -9,9 +9,10 @@ h_mean(x, na.rm = TRUE, zero = TRUE)
 \arguments{
 \item{x}{is a numeric value, could be a  a vector or data.frame}
 
-\item{na.rm}{is a na.rm}
+\item{na.rm}{remove missing values before computing}
 
-\item{zero}{is any value of cero}
+\item{zero}{is any value of zero. If \code{FALSE}, zeros will
+be removed}
 }
 \value{
 a geometric mean
